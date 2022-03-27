@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from routers import file, login
+from routers import file, login, resources
 
 app = FastAPI()
 
@@ -20,6 +20,7 @@ app.add_middleware(
 
 app.include_router(login.router)
 app.include_router(file.router)
+app.include_router(resources.router)
 
 
 @app.get("/")
