@@ -54,6 +54,6 @@ def resources_list_of_paths(dirName):
             allFiles = allFiles + resources_list_of_paths(fullPath)
         else:
             # Append filename up to -3rd position to remove .md from string
-            allFiles.append(f'resources/{entry[:-3]}')
+            allFiles.append(f"/resources/{entry[:-3]}")
 
     return allFiles
