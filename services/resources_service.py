@@ -6,6 +6,7 @@ from fastapi.responses import FileResponse
 from lib import markdown
 from models.login import Login
 from models.user import User
+from numpy import full
 
 
 def example_resources_service():
@@ -15,7 +16,7 @@ def example_resources_service():
 def resources_data():
     def get_dirs_data(initial_dir, resources):
         dir_resources = {
-            "id": initial_dir.split('/')[-1],
+            "id": initial_dir.split("/")[-1],
             "resources": markdown.get_sorted_data(initial_dir),
             "children": [],
         }
@@ -36,3 +37,23 @@ def resources_data():
 
     data = get_dirs_data("resources", {})
     return data
+
+
+def resources_list_of_paths(dirName):
+    # create a list of file and sub directories
+    # names in the given directory
+    listOfFile = os.listdir(dirName)
+    allFiles = list()
+    # Iterate over all the entries
+    for entry in listOfFile:
+        # Create full path
+        fullPath = os.path.join(dirName, entry)
+        # fullPath = f"resources/{entry}"
+        # If entry is a directory then get the list of files in this directory
+        if os.path.isdir(fullPath):
+            allFiles = allFiles + resources_list_of_paths(fullPath)
+        else:
+            # Append filename up to -3rd position to remove .md from string
+            allFiles.append(f'resources/{entry[:-3]}')
+
+    return allFiles

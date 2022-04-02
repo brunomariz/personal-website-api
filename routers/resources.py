@@ -5,6 +5,11 @@ router = APIRouter(prefix="/resources",)
 
 
 @router.get("/")
-async def example_resources_route():
+async def resources_route():
     return resources_service.resources_data()
+
+
+@router.get("/paths")
+async def resources_paths_route():
+    return resources_service.resources_list_of_paths("resources")
 
