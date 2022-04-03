@@ -14,7 +14,7 @@ title: Web Development
 
 - React: https://beta.reactjs.org/learn
 - I have taken advantage especially from the Managing State section: https://beta.reactjs.org/learn/managing-state
-- NEXT.JS: https://nextjs.org/
+- Next.js: https://nextjs.org/
 
 ## Ispiration
 
