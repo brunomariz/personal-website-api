@@ -6,4 +6,4 @@ title: Readme
 
 # Resources
 
-This is an unstructured collection of resources I found interesting, useful, and/or worth saving for later reference.
+This is an unstructured collection of resources I found interesting, useful, and/or worth saving for later reference. lerolero
