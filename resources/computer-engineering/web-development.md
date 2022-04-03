@@ -6,6 +6,16 @@ title: Web Development
 
 # Some web development stuff:
 
+## Backend Development
+
+- FastAPI: https://fastapi.tiangolo.com/
+
+## Frontend Development
+
+- React: https://beta.reactjs.org/learn
+- I have taken advantage especially from the Managing State section: https://beta.reactjs.org/learn/managing-state
+- NEXT.JS: https://nextjs.org/
+
 ## Ispiration
 
 - https://www.awwwards.com/
