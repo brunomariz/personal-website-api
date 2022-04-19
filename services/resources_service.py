@@ -4,9 +4,6 @@ from typing import List
 from fastapi import HTTPException
 from fastapi.responses import FileResponse
 from lib import markdown
-from models.login import Login
-from models.user import User
-from numpy import full
 
 
 def example_resources_service():

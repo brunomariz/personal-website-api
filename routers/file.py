@@ -1,8 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from fastapi.responses import FileResponse
 from isort import file
-from models.login import Login
-from models.user import User
 from services import file_service
 
 router = APIRouter(prefix="/file",)
