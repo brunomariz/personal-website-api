@@ -6,6 +6,12 @@ title: Web Development
 
 # Some web development stuff:
 
+## Web development metodology
+
+### Twelve Factor App
+
+- https://12factor.net/
+
 ## Backend Development
 
 - FastAPI: https://fastapi.tiangolo.com/

@@ -21,3 +21,15 @@ title: Design
 - https://colorhunt.co/
 - https://coolors.co/
 - https://www.grabient.com/
+
+## Free assets
+
+### Images
+
+- https://unsplash.com/
+- https://br.freepik.com/
+- https://pixabay.com/
+
+### Various
+
+- https://mixkit.co/

@@ -10,10 +10,16 @@ title: Software Engineering
 
 - https://www.uml.org/
 
-## Design Patterns
+## Software design principles
+
+### Design Patterns
 
 - https://en.wikipedia.org/wiki/Design_Patterns
 - Read on GitHub: https://github.com/amilajack/reading/blob/master/Design/GOF%20Design%20Patterns.pdf
+
+### SOLID Principles
+
+- https://en.wikipedia.org/wiki/SOLID
 
 ## Object Oriented Programming (OOP)
 
@@ -22,3 +28,7 @@ title: Software Engineering
 ## Database Management
 
 - SQLAlchemy tutorial: https://docs.sqlalchemy.org/en/14/tutorial/index.html#unified-tutorial
+
+## Regex
+
+- Testing regex patterns interactively, pattens, cheatsheet, and reference: https://regexr.com/
