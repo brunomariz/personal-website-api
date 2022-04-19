@@ -7,5 +7,7 @@ class User(BaseModel):
     username: str
 
 
-
+class UserInDB(User):
+    hashed_password: str
+    disabled: bool
 

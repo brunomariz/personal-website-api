@@ -5,3 +5,4 @@ numpy==1.20.3
 pydantic==1.8.2
 uvicorn
 aiofiles
+python-multipart
