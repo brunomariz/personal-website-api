@@ -31,9 +31,9 @@ Currently, about 95% of the internet traffic depends on submarine fiber-optic ca
 
 A project aiming to bring technology, research and economical development to the Amazonian rainforest to the benefit of the local population while maintaining the biodiversity and climatic conditions of the rainforest.
 
-Projeto Amazônia 4.0 (pt_BR): http://www.iea.usp.br/pesquisa/pesquisadores-colaboradores/projeto-amazonia-4.0
+Projeto Amazonia 4.0 (pt_BR): http://www.iea.usp.br/pesquisa/pesquisadores-colaboradores/projeto-amazonia-4.0
 
-###### Amazonia Conectada: a subaquatic network in the rainforest
+###### Amazônia Conectada: a subaquatic network in the rainforest
 
 Intended for connecting the brazillian army units located in the eastern amazonian region, this project aimed to install a high-velocity network by laying fiber-optic cables in the riverbeds. The project would also benefit local residents, as areas that were previously untouched could make use of the network, increasing digital inclusion.
 
