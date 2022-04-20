@@ -13,7 +13,7 @@ Request for comments are a series of documents which define standards for all so
 - IP RFC: https://datatracker.ietf.org/doc/html/rfc791
 - Search RFC: https://datatracker.ietf.org/
 
-### Submarine fiber optics cables
+### Submarine fiber-optic cables
 
 Currently, about 95% of the internet traffic depends on submarine fiber-optic cables which run across the ocean floor. Many of them are comissioned by large corporations, such as Google, Amazon, Facebook and Microsoft. They are placed under the sea floor by ships which carry large spools of reinforced cables. These cables contain the fiber-optics, aswell as a copper shell for powering optical signal amplifiers along the way.
 
