@@ -27,11 +27,11 @@ Currently, about 95% of the internet traffic depends on submarine fiber-optic ca
 
 ### Amazon Rainforest
 
-###### Amazonia 4.0 Project
+###### Amazônia 4.0 Project
 
 A project aiming to bring technology, research and economical development to the Amazonian rainforest to the benefit of the local population while maintaining the biodiversity and climatic conditions of the rainforest.
 
-Projeto Amazonia 4.0 (pt_BR): http://www.iea.usp.br/pesquisa/pesquisadores-colaboradores/projeto-amazonia-4.0
+Projeto Amazônia 4.0 (pt_BR): http://www.iea.usp.br/pesquisa/pesquisadores-colaboradores/projeto-amazonia-4.0
 
 ###### Amazônia Conectada: a subaquatic network in the rainforest
 
