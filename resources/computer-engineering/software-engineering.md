@@ -10,7 +10,7 @@ title: Software Engineering
 
 - https://www.uml.org/
 
-## Software design principles
+## Software design principles and code quality
 
 ### Design Patterns
 
@@ -20,6 +20,10 @@ title: Software Engineering
 ### SOLID Principles
 
 - https://en.wikipedia.org/wiki/SOLID
+
+### Tools
+
+- JArchitect is a software quality analyzer used by many large companies to keep track of their code quality: https://www.jarchitect.com/
 
 ## Object Oriented Programming (OOP)
 
