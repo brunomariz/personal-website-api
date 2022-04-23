@@ -9,4 +9,10 @@ def example_file_service():
 
 
 def file(file_path: str):
-    return FileResponse(file_path)
+    return FileResponse(
+        file_path,
+        headers={
+            "Content-Type": "application/pdf",
+            "Content-Disposition": "attachment; filename=CV_bruno_mariz.pdf",
+        },
+    )
