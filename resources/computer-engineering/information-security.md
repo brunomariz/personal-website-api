@@ -6,7 +6,7 @@ title: Information Security
 
 # Information Security
 
-### Key Derivation Functions (KDF)
+## Key Derivation Functions (KDF)
 
 - Key Derivation Function: https://en.wikipedia.org/wiki/Key_derivation_function
 
@@ -14,7 +14,7 @@ title: Information Security
 
 - How to store sensitive user data in a database and allow user access through session key: https://security.stackexchange.com/questions/157422/store-encrypted-user-data-in-database
 
-### Data transmission
+## Data transmission
 
 - RSA: https://en.wikipedia.org/wiki/RSA_(cryptosystem)
 
@@ -22,6 +22,6 @@ title: Information Security
 
 - TLS: https://pt.wikipedia.org/wiki/Transport_Layer_Security
 
-### Courses
+## Courses
 
 - Univesp - Segurança da Informação (pt_BR): https://youtube.com/playlist?list=PLxI8Can9yAHenoHipBXp9XuJY4BBxBUPQ
