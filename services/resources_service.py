@@ -14,7 +14,7 @@ def resources_data():
     def get_dirs_data(initial_dir, resources):
         dir_resources = {
             "id": initial_dir.split("/")[-1],
-            "resources": markdown.get_sorted_data(initial_dir),
+            "resources": reversed(markdown.get_sorted_data(initial_dir)),
             "children": [],
         }
 
