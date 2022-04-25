@@ -41,7 +41,9 @@ def get_sorted_data(
         )
 
     # Get sorted data
-    sorted_data = sorted(data, key=lambda item: get_datetime(item["metadata"][key][0]))
+    sorted_data = sorted(
+        data, key=lambda item: get_datetime(item["metadata"][key][0]), reverse=True
+    )
 
     return sorted_data
 
