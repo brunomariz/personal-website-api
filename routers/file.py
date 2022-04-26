@@ -8,7 +8,7 @@ router = APIRouter(prefix="/file",)
 
 @router.get("/")
 async def example_login_route():
-    return file_service.example_login_service()
+    return file_service.example_file_service()
 
 
 @router.get("/cv", response_class=FileResponse)
