@@ -10,7 +10,7 @@ title: Information Security
 
 - Key Derivation Function: https://en.wikipedia.org/wiki/Key_derivation_function
 
-  - PBKDF2: https://en.wikipedia.org/wiki/PBKDF2
+- PBKDF2: https://en.wikipedia.org/wiki/PBKDF2
 
 - How to store sensitive user data in a database and allow user access through session key: https://security.stackexchange.com/questions/157422/store-encrypted-user-data-in-database
 

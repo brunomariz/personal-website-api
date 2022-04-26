@@ -8,18 +8,18 @@ title: Software Engineering
 
 ## UML
 
-- https://www.uml.org/
+- UML: https://www.uml.org/
 
 ## Software design principles and code quality
 
 ### Design Patterns
 
-- https://en.wikipedia.org/wiki/Design_Patterns
+- About GOF Design Patterns: https://en.wikipedia.org/wiki/Design_Patterns
 - Read on GitHub: https://github.com/amilajack/reading/blob/master/Design/GOF%20Design%20Patterns.pdf
 
 ### SOLID Principles
 
-- https://en.wikipedia.org/wiki/SOLID
+- About SOLID Principles: https://en.wikipedia.org/wiki/SOLID
 
 ### Tools
 
