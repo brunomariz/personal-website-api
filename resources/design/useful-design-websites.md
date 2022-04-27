@@ -1,10 +1,10 @@
 ---
 created: 2022-03-20 09:00:00
 modified: 2022-04-02 21:17:00
-title: Design
+title: Useful Design Websites
 ---
 
-# Some Design stuff:
+# Useful Design Websites:
 
 ## Inspiration
 
