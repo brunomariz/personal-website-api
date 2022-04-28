@@ -33,6 +33,8 @@ title: Software Engineering
 
 - SQLAlchemy tutorial: https://docs.sqlalchemy.org/en/14/tutorial/index.html#unified-tutorial
 
+- Practice SQL on SQL bolt: https://sqlbolt.com/
+
 ## Regex
 
 - Testing regex patterns interactively, pattens, cheatsheet, and reference: https://regexr.com/
