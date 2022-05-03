@@ -24,8 +24,13 @@ title: Youtube
 - Computer Networking Complete Course - Beginner to Advanced: https://www.youtube.com/watch?v=QKfk7YFILws&t=4022s&ab_channel=Geek%27sLesson
 - https://www.youtube.com/c/PowerCertAnimatedVideos
 
-## General
+## General programming
 
 - Computerphile: https://www.youtube.com/user/Computerphile
 - Fireship: https://www.youtube.com/c/Fireship
 - CSDojo (Python): https://www.youtube.com/c/CSDojo
+
+## Design
+
+- Linus Boman: https://www.youtube.com/c/LinusBoman
+- DesignCourse: https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow
