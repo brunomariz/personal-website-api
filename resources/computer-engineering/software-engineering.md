@@ -6,6 +6,11 @@ title: Software Engineering
 
 # Some software engineering stuff:
 
+## Introduction to Computer Science
+
+- Introdução a Ciência da Computação em C https://www.ime.usp.br/~hitoshi/introducao/
+- Lista de exercícios em C https://www.ime.usp.br/~macmulti/
+
 ## UML
 
 - UML: https://www.uml.org/
