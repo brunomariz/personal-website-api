@@ -12,8 +12,8 @@ async def example_login_route():
 
 
 @router.get("/cv", response_class=FileResponse)
-async def cv(lang: str = "eng"):
-    if lang == "eng":
-        return file_service.file("files/Eng_CV_bruno_mariz.pdf")
-    else:
+async def cv(lang: str = "en-US"):
+    if lang in ["pt-BR", "pt"]:
         return file_service.file("files/CV_bruno_mariz.pdf")
+    else:
+        return file_service.file("files/Eng_CV_bruno_mariz.pdf")
