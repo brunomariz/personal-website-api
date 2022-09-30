@@ -30,6 +30,8 @@ title: Software Engineering
 
 - JArchitect is a software quality analyzer used by many large companies to keep track of their code quality: https://www.jarchitect.com/
 
+- CMake Tutorial: https://cmake.org/cmake/help/latest/guide/tutorial/index.html
+
 ## Object Oriented Programming (OOP)
 
 - MAC321 - Laboratório de Programação Orientada a Objetos - IME/USP https://youtube.com/playlist?list=PLTeQ2u81sjqfsFNWrUCIoqJZBSJrai8M7
