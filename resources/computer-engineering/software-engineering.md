@@ -22,6 +22,10 @@ title: Software Engineering
 - About GOF Design Patterns: https://en.wikipedia.org/wiki/Design_Patterns
 - Read on GitHub: https://github.com/amilajack/reading/blob/master/Design/GOF%20Design%20Patterns.pdf
 
+#### Immediate Mode GUIs
+
+- Sol on Immediate Mode GUIs (IMGUI): http://iki.fi/sol/imgui/
+
 ### SOLID Principles
 
 - About SOLID Principles: https://en.wikipedia.org/wiki/SOLID
