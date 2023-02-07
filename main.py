@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from routers import file, resources
+from routers import file, resources, health_check
 
 app = FastAPI()
 
@@ -18,6 +18,7 @@ app.add_middleware(
 )
 
 
+app.include_router(health_check.router)
 app.include_router(file.router)
 app.include_router(resources.router)
 
