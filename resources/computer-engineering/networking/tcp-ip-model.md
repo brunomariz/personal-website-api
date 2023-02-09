@@ -28,6 +28,13 @@ title: TCP/IP Model
 
 #### Responsibilities
 
+- Communication between neighbouring nodes on a network
+- Error detection
+- Error correction (except in fiber links)
+- Controle de fluxo
+- Congestion control (in fiber links)
+- Physical addressing (ex: MAC)
+
 ###### Before fiber-optics:
 
 - Error detection (BER ~10^-6) and correction
@@ -47,13 +54,23 @@ title: TCP/IP Model
 #### Responsibilities
 
 - Routing
-- Maximum Transmission Unit (MTU)
-- Segmentation
+- Segmentation based on Maximum Transmission Unit (MTU)
+- Logical addressing (ex: IPv4)
 
 ### 4. Transport Layer
 
 #### Responsibilities
 
+- End-to-end communication
+- Routing and congestion error detection and correction
+- Flow control (sliding window)
+- Congestion control
+  - Avoid buffer overflows on routers
+  - Performed by transmitter
+
 ### 5. Application Layer
 
 #### Responsibilities
+
+- User interface
+- Authentication and authorization
