@@ -1,4 +1,4 @@
-name: Update EC2 Repo
+name: Personal Website CI/CD
 
 on:
   push:
@@ -7,8 +7,24 @@ on:
   workflow_dispatch:
 
 jobs:
-  Deploy:
-    name: Deploy to EC2
+  run_tests:
+    name: Run Pytest
+    runs-on: python
+
+    steps:
+      - uses: actions/checkout@v2 
+      - name: Checkout and run tests      
+        run: |
+          python -m venv ./venv
+          source venv/bin/activate
+          pip install --no-cache-dir --upgrade -r requirements.txt
+          pip install --no-cache-dir --upgrade -r requirements_dev.txt
+          pytest
+
+    
+  update_ec2:
+    needs: run_tests
+    name: Update code on EC2
     runs-on: ubuntu-latest
     
     steps:
