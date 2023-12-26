@@ -1,6 +1,6 @@
 name: Update EC2 Repo
 
-on: push
+on: [push, workflow_dispatch]
 
 jobs:
   Deploy:
