@@ -11,5 +11,5 @@ async def resources_route():
 
 @router.get("/paths")
 async def resources_paths_route():
-    return resources_service.resources_list_of_paths("resources")
+    return resources_service.resources_list_of_paths("app/resources")
 

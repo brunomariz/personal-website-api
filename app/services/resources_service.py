@@ -6,10 +6,6 @@ from fastapi.responses import FileResponse
 from app.lib import markdown
 
 
-def example_resources_service():
-    return {"message": "resources"}
-
-
 def resources_data():
     def get_dirs_data(initial_dir, resources):
         dir_resources = {

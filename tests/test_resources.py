@@ -1,6 +1,5 @@
 from fastapi.testclient import TestClient
 from app.main import app
-import json
 
 test_client = TestClient(app)
 
@@ -20,3 +19,12 @@ def test_software_engineering_content():
     computer_engineering = next((item for item in response.json()["children"] if item["id"] == "computer-engineering"), None)
     software_engineering = next((item for item in computer_engineering["resources"] if item["id"] == "software-engineering"), None)
     assert include_text in software_engineering["data"]
+
+def test_resource_paths():
+    response = test_client.get("/resources/paths")
+    assert "/resources/computer-graphics" in response.json()
+    assert "/resources/cool-networking-websites" in response.json()
+    assert "/resources/information-security" in response.json()
+    assert "/resources/software-engineering" in response.json()
+    assert "/resources/historical-design-stuff" in response.json()
+

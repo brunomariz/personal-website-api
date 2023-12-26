@@ -7,7 +7,7 @@ router = APIRouter(prefix="/file",)
 
 
 @router.get("/")
-async def example_login_route():
+async def example_file_route():
     return file_service.example_file_service()
 
 
