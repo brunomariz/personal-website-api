@@ -1,0 +1,28 @@
+name: Update EC2 Repo
+
+on: push
+
+jobs:
+  Deploy:
+    name: Deploy to EC2
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2 
+      - name: Checkout and pull changes
+        env:
+            EC2_SECRET: ${{ secrets.EC2_SECRET }}
+            SSH_HOST: ${{secrets.SSH_HOST}}
+            SSH_USER: ${{secrets.SSH_USER}}
+      
+        run: |
+          echo "$EC2_SECRET" > private_key && chmod 600 private_key
+          ssh -o StrictHostKeyChecking=no -i private_key ${SSH_USER}@${SSH_HOST} '
+
+              # Now we have got the access of EC2 and we will start the deploy .
+              cd /home/$USER/personal-website-api &&
+              git checkout main &&
+              git fetch --all &&
+              git reset --hard origin/main &&
+              git pull origin main &&
+              echo "updated at: $(echo $(date))" >> /home/$USER/log
