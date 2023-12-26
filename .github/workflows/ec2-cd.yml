@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v2 
+      - uses: actions/checkout@v4
       - name: Checkout and pull changes
         env:
             EC2_SECRET: ${{ secrets.EC2_SECRET }}
