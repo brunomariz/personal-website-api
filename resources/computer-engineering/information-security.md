@@ -25,3 +25,7 @@ title: Information Security
 ## Courses
 
 - Univesp - Segurança da Informação (pt_BR): https://youtube.com/playlist?list=PLxI8Can9yAHenoHipBXp9XuJY4BBxBUPQ
+
+## Certificate Transparency
+
+- https://certificate.transparency.dev/
