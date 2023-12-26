@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from fastapi.responses import FileResponse
 from isort import file
-from services import file_service
+from app.services import file_service
 
 router = APIRouter(prefix="/file",)
 
@@ -14,6 +14,6 @@ async def example_login_route():
 @router.get("/cv", response_class=FileResponse)
 async def cv(lang: str = "en-US"):
     if lang in ["pt-BR", "pt"]:
-        return file_service.file("files/CV_bruno_mariz.pdf")
+        return file_service.file("app/files/CV_bruno_mariz.pdf")
     else:
-        return file_service.file("files/Eng_CV_bruno_mariz.pdf")
+        return file_service.file("app/files/Eng_CV_bruno_mariz.pdf")

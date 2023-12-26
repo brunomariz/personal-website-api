@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from routers import file, resources, health_check
+from app.routers import file, resources, health_check
 
 app = FastAPI()
 

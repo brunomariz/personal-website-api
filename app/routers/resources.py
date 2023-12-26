@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from services import resources_service
+from app.services import resources_service
 
 router = APIRouter(prefix="/resources",)
 

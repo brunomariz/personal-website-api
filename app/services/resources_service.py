@@ -3,7 +3,7 @@ from typing import List
 
 from fastapi import HTTPException
 from fastapi.responses import FileResponse
-from lib import markdown
+from app.lib import markdown
 
 
 def example_resources_service():
@@ -32,7 +32,7 @@ def resources_data():
 
         return dir_resources
 
-    data = get_dirs_data("resources", {})
+    data = get_dirs_data("app/resources", {})
     return data
 
 
