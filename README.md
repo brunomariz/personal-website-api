@@ -5,5 +5,3 @@
 ### AWS
 
 Code deployed on AWS EC2 instance with Elastic IP address. Updated on pull with GitHub Actions as described in [this repo](https://github.com/brunomariz/aws-cd).
-
-Password=000000000
