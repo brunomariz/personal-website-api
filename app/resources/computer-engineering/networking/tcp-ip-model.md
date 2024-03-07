@@ -74,3 +74,4 @@ title: TCP/IP Model
 
 - User interface
 - Authentication and authorization
+- Generating data
