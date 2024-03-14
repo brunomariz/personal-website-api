@@ -40,3 +40,7 @@ Projeto Amazônia 4.0 (pt_BR): http://www.iea.usp.br/pesquisa/pesquisadores-cola
 Intended for connecting the brazillian army units located in the eastern amazonian region, this project aimed to install a high-velocity network by laying fiber-optic cables in the riverbeds. The project would also benefit local residents, as areas that were previously untouched could make use of the network, increasing digital inclusion.
 
 - Projeto Amazônia Conectada (pt_BR): http://www.amazoniaconectada.eb.mil.br/
+
+## IPv6
+
+- IPv6 adoption statistics: https://www.google.com/intl/en/ipv6/statistics.html
