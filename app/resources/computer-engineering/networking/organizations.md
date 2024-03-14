@@ -1,3 +1,9 @@
+---
+created: 2024-03-14 14:14:58
+modified:
+title: Organizations
+---
+
 ## IP resources management
 
 ## Hierarchy
