@@ -4,7 +4,7 @@ modified:
 title: Organizations
 ---
 
-## IP resources management
+# IP resources management
 
 ## Hierarchy
 
