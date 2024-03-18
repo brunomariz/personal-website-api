@@ -29,3 +29,7 @@ title: Information Security
 ## Certificate Transparency
 
 - https://certificate.transparency.dev/
+
+## Dynamic Arp Inspection
+
+When and ARP request is sent via broadcast to the local network, a malicious host can issue an ARP reply with it's own MAC address. This type of attack is called ARP poisoning. to prevent it, switches can implement [dynamic ARP inspection (DAI)](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst4500/12-2/25ew/configuration/guide/conf/dynarp.html).
