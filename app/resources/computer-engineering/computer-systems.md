@@ -28,3 +28,7 @@ title: Computer Systems
     - openDCIM (https://www.opendcim.org/)
     - Request Tracker (https://bestpractical.com/request-tracker)
     - Slurm (https://slurm.schedmd.com/)
+
+# Awesome Sysadmin
+
+Curated list of many, many systems administrator tools: https://github.com/awesome-foss/awesome-sysadmin?tab=readme-ov-file
