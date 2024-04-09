@@ -15,6 +15,12 @@ Request for comments are a series of documents which define standards for all so
 - RFC 1918, "Address Allocation for Private Internets": http://www.faqs.org/rfcs/rfc1918.html
 - Search RFC: https://datatracker.ietf.org/
 
+## Icann
+
+- Proposed Top-Level Domain String for Private Use: https://www.icann.org/en/public-comment/proceeding/proposed-top-level-domain-string-for-private-use-24-01-2024
+
+[RFC 1918](https://datatracker.ietf.org/doc/html/rfc1918) describes Address Allocation for Private Internets, an important concept for testing and addressing on internal networks. A similar concept does not yet exist as of 2024-04-09. IANA has stated that a preferred top-level domain for private use should be .INTERNAL. However, this was only provisional. The link above shows a public comment section on why .INTERNAL should or should not be used for this purpose. It has already been closed, and the report is due April 12, 2024.
+
 ## Submarine fiber-optic cables
 
 Currently, about 95% of the internet traffic depends on submarine fiber-optic cables which run across the ocean floor. Many of them are comissioned by large corporations, such as Google, Amazon, Facebook and Microsoft. They are placed under the sea floor by ships which carry large spools of reinforced cables. These cables contain the fiber-optics, aswell as a copper shell for powering optical signal amplifiers along the way.
