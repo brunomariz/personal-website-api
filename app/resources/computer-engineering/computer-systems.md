@@ -14,6 +14,13 @@ title: Computer Systems
 
 # Cluster Management
 
+### Laboratório Nacional de Computação Científica (LNCC)
+
+- MC-SD06-I: Introdução à configuração e gerenciamento de clusters (Módulo1): https://www.youtube.com/watch?v=8D_GrGe3jmY&list=PL1JkuXNrkXKybpzUq1y_CkoVfkbpz-ReJ&index=65
+- MC-SD06-II: Introdução à configuração e gerenciamento de clusters (Módulo 2): https://www.youtube.com/watch?v=Wh6OkQCX5Ig&list=PL1JkuXNrkXKybpzUq1y_CkoVfkbpz-ReJ&index=64
+
+### Kansas State University
+
 - Heterogenous cluster management: https://dl.acm.org/doi/pdf/10.1145/3332186.3332251. Tools mentioned in the article:
     - Ansible (https://www.ansible.com/)
     - Ceph (https://ceph.com/)
