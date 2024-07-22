@@ -1,4 +1,4 @@
-name: Personal Website CI
+name: pytest
 
 on:
   push:
