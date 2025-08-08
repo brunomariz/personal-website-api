@@ -39,3 +39,16 @@ title: Computer Systems
 # Awesome Sysadmin
 
 Curated list of many, many systems administrator tools: https://github.com/awesome-foss/awesome-sysadmin?tab=readme-ov-file
+
+# Digital Systems
+
+### Websites
+
+- Wave viewer: https://gtkwave.sourceforge.net/
+- GHDL - VHDL simulator: [download](https://ghdl.readthedocs.io/en/latest/getting/Releases.html) and [manual](https://ghdl.readthedocs.io/en/latest/quick_start/README.html)
+- EDA playground: https://www.edaplayground.com/
+
+### Books
+
+- Wakerly, John F. Digital Design: Principles and Practices, 4/E. Pearson Education India, 2008.
+- Patterson, D. A., & Hennessy, J. L. (1803). Computer organization and Design. The Hardware/Soft. 
