@@ -14,6 +14,10 @@ title: Computer Systems
 
 # Cluster Management
 
+### Lawrence Livermore National Lab (LLNL)
+
+- Tutoriais diversos (OpenMP, MPI, SLURM, Flux, etc): https://hpc-tutorials.llnl.gov/
+
 ### Laboratório Nacional de Computação Científica (LNCC)
 
 - MC-SD06-I: Introdução à configuração e gerenciamento de clusters (Módulo1): https://www.youtube.com/watch?v=8D_GrGe3jmY&list=PL1JkuXNrkXKybpzUq1y_CkoVfkbpz-ReJ&index=65
