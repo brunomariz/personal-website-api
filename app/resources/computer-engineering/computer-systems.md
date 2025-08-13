@@ -16,7 +16,7 @@ title: Computer Systems
 
 ### Lawrence Livermore National Lab (LLNL)
 
-- Tutoriais diversos (OpenMP, MPI, SLURM, Flux, etc): https://hpc-tutorials.llnl.gov/
+- Tutorials (OpenMP, MPI, SLURM, Flux, etc): https://hpc-tutorials.llnl.gov/
 
 ### Laboratório Nacional de Computação Científica (LNCC)
 
