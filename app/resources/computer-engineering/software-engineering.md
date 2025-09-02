@@ -6,6 +6,19 @@ title: Software Engineering
 
 # Software Engineering Topics
 
+## High Performance Computing
+
+- OpenACC resources: https://www.openacc.org/resources
+- NVIDIA Driver install Docs: https://docs.nvidia.com/datacenter/tesla/driver-installation-guide/#
+- Find the appropriate NVIDIA driver version for your GPU: https://www.nvidia.com/en-us/drivers/
+- NVIDIA on WSL https://docs.nvidia.com/cuda/wsl-user-guide/index.html
+- Use the nvidia AMI on AWS ( 10 minutes): https://github.com/NVIDIA/nvidia-docker/wiki/Deploy-on-Amazon-EC2
+- Get started with nvidia-docker (5 minutes): https://github.com/NVIDIA/nvidia-docker
+- Get started with the CUDA development image (5 minutes): https://hub.docker.com/r/nvidia/cuda/ 
+- CUDA C Best Practices Guide: http://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html
+- NVIDIA Nsight Compute Documentation: https://docs.nvidia.com/nsight-compute/index.html
+
+
 ## Introduction to Computer Science
 
 - Introdução a Ciência da Computação em C https://www.ime.usp.br/~hitoshi/introducao/
