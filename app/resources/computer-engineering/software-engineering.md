@@ -16,6 +16,7 @@ title: Software Engineering
 - Get started with nvidia-docker (5 minutes): https://github.com/NVIDIA/nvidia-docker
 - Get started with the CUDA development image (5 minutes): https://hub.docker.com/r/nvidia/cuda/ 
 - CUDA C Best Practices Guide: http://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html
+- NVIDIA Training Materials: https://developer.nvidia.com/cuda-education
 - NVIDIA Nsight Compute Documentation: https://docs.nvidia.com/nsight-compute/index.html
 
 
